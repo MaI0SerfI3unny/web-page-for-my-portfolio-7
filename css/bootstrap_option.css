@@ -52,13 +52,17 @@
 
 
 .col-md-1 {
+  color: white;
+  
+  padding: 3rem;
+  padding-top: 8rem;
   -ms-flex: 0 0 8.333333%;
   flex: 0 0 8.333333%;
   max-width: 8.333333%;
 }
 .col-md-2 {
   cursor: pointer;
-  border: 1px solid;
+  border: 1px solid #cccccc;
   -ms-flex: 0 0 20.666667%;
   flex: 0 0 20.666667%;
   max-width: 20.666667%;

@@ -64,36 +64,50 @@ function card(){
   var top = document.getElementById("top");
   var top = document.getElementById("card");
   var mainpricing = document.getElementById("main-pricing");
+  var btn1 = document.getElementById("btn");
+
 
   top.style.backgroundColor = "#dd2ec0";
   mainpricing.style.backgroundColor = "#ba1fa0";
+  btn.style.backgroundColor = "#ffccff";
+
 }
 
 function carddown(){
   var top = document.getElementById("top");
   var top = document.getElementById("card");
   var mainpricing = document.getElementById("main-pricing");
+  var btn1 = document.getElementById("btn");
+
 
   top.style.backgroundColor = "white";
   mainpricing.style.backgroundColor = "white";
+  btn.style.backgroundColor = "#ba1fa0";
+
 }
 
 function card1(){
   var top = document.getElementById("top1");
   var top = document.getElementById("card1");
   var mainpricing = document.getElementById("main-pricing1");
+  var btn1 = document.getElementById("btn1");
+
 
   top.style.backgroundColor = "#dd2ec0";
   mainpricing.style.backgroundColor = "#ba1fa0";
+  btn1.style.backgroundColor = "#ffccff";
 }
 
 function carddown1(){
   var top1 = document.getElementById("top1");
   var top1 = document.getElementById("card1");
   var mainpricing1 = document.getElementById("main-pricing1");
+  var btn1 = document.getElementById("btn1");
+
 
   top1.style.backgroundColor = "white";
   mainpricing1.style.backgroundColor = "white";
+  btn1.style.backgroundColor = "#ba1fa0";
 }
 
 function card2(){
