@@ -35,11 +35,26 @@ width: 100%;
 
 
 ul{
+  float:right;
   list-style-type: none;
   padding-top: 35px;
   padding-bottom: 35px;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+@media (max-width:996px) {
+  ul{
+    width: 1000px;
+    margin-left: 3rem;
+    float: none;
+  }
+}
+
+@media (max-width:772px) {
+  ul{
+    float: right;
+  }
 }
 
 li{
@@ -108,6 +123,9 @@ header a{
   margin-bottom: 8rem;
 }
 
+.about p{
+}
+
 .about .col-md-12 img{
   margin-right: 2rem;
 }
@@ -145,7 +163,7 @@ header a{
   color: #666666;
   margin-top: 1rem;
   font-size: 14px;
-  width: 200px;
+  width: 300px;
 }
 /*---------------------------------Blok1---------------------------------------*/
 .blok1{
@@ -263,10 +281,10 @@ visibility: hidden;
   float: left;
   color: #858585;
   padding: 20px;
-  padding-left: 81px;
-  padding-right: 81px;
+  width: 19%;
   border: 1px solid  #999999;
 }
+
 /*------------------------------FEATURE_FOOT-------------------------------------------*/
 
 .feature_foot{
