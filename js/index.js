@@ -1,3 +1,4 @@
+/*------------------------SLIDER button num1(feature)---------------------------------------------*/
  function i1a() {
         var i1a = document.getElementById("i1a");
         var i2a = document.getElementById("i2a");
@@ -59,6 +60,8 @@ function i4a() {
          i3a.style.backgroundColor = "white";
          i3a.style.color ="#858585";
 }
+
+/*----------------------------CARD (pricing)-------------------------------------------------*/
 
 function card(){
   var top = document.getElementById("top");
