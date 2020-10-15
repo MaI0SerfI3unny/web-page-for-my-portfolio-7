@@ -123,8 +123,6 @@ header a{
   margin-bottom: 8rem;
 }
 
-.about p{
-}
 
 .about .col-md-12 img{
   margin-right: 2rem;
@@ -136,6 +134,8 @@ header a{
   width: 70%;
   font-size: 15px;
 }
+
+
 
 .about .col-md-3 img{
   margin-left: 4rem;
@@ -165,6 +165,20 @@ header a{
   font-size: 14px;
   width: 300px;
 }
+
+@media (max-width: 1199px) {
+  .about .col-md-3 img{
+    margin-left: 0rem;
+  }
+  .about .col-md-5{
+    margin: 1rem;
+    margin-top: 3rem;
+    }
+    .about .col-md-5 p{
+      width:150px;
+    }
+}
+
 /*---------------------------------Blok1---------------------------------------*/
 .blok1{
   color: white;
@@ -1174,6 +1188,11 @@ background-color: #dfdfdf;
   color: white;
 }
 
+@media (max-width:1999px) {
+  .head_input{
+    width: 96%;
+  }
+}
 /*------------------------------FOOTER---------------------------------------------*/
 
 footer{
